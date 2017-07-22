@@ -6,6 +6,6 @@
 
 ```
 <!--[if IE]>
-  <script src="https://cdn.rawgit.com/chatii2412/unsupported-browser/v0.1/ko.js"></script>
+	<script src="https://cdn.rawgit.com/chatii2412/unsupported-browser/v0.1/ko.js"></script>
 <![endif]-->
 ```
