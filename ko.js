@@ -40,10 +40,33 @@
 	addEvent(closeBtn, 'click', close);
 
 	// Styles
-	container.style.cssText = 'position: fixed; z-index: 2147483647; top: 100px; left: 0; right: 0; margin-left: auto; margin-right: auto; padding: 15px; width: 400px; background-color: #ff3737'
-	title.style.cssText = 'text-align: left; font-size: 18px; color: #ffffff'
-	content.style.cssText = 'margin-top: 15px; text-align: left; font-size: 14px; color: #ffffff'
-	closeBtn.style.cssText = 'position: absolute; top: 15px; right: 15px; cursor: pointer; line-height: 1; font-size: 14px; color: #ffffff'
+	container.style.position = 'fixed';
+	container.style.zIndex = '2147483647';
+	container.style.top = '100px';
+	container.style.left = '0';
+	container.style.right = '0';
+	container.style.marginLeft = 'auto';
+	container.style.marginRight = 'auto';
+	container.style.padding = '15px';
+	container.style.width = '400px';
+	container.style.backgroundColor = '#ff3737';
+
+	title.style.textAlign = 'left';
+	title.style.fontSize = '18px';
+	title.style.color = '#ffffff';
+
+	content.style.marginTop = '15px';
+	content.style.textAlign = 'left';
+	content.style.fontSize = '14px';
+	content.style.color = '#ffffff';
+
+	closeBtn.style.position = 'absolute';
+	closeBtn.style.top = '15px';
+	closeBtn.style.right = '15px';
+	closeBtn.style.cursor = 'pointer';
+	closeBtn.style.lineHeight = '1';
+	closeBtn.style.fontSize = '14px';
+	closeBtn.style.color = '#ffffff';
 
 	// Append nodes
 	container.appendChild(title);
