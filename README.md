@@ -12,7 +12,7 @@ Warning to user asking them to upgrade their browser.
 
 ## Demo
 
-[Basic Example](https://chatii2412.github.io/unsupported-browser/examples/basic-example.html)
+[Basic Example](https://chatoo2412.github.io/unsupported-browser/examples/basic-example.html)
 
 ## To Do
 
