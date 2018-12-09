@@ -6,7 +6,7 @@ Warning to user asking them to upgrade their browser.
 
 ``` html
 <!--[if IE]>
-	<script src="https://cdn.rawgit.com/chatii2412/unsupported-browser/v0.1.2/ko.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/chatii2412/unsupported-browser@v0.1.2/ko.js"></script>
 <![endif]-->
 ```
 
